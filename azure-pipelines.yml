@@ -23,6 +23,6 @@ jobs:
     steps:
       - template: templates/run-test-config.yml@sourceRepo
         parameters:
-          serverURL: http://localhost:8000 # Required. Details below
-          testConfigID: 408caa2b-0bb9-4105-8fe8-f9834e357877 # Required. Details below
-          clientSecret: 5ae7b3b4-22ed-420e-b156-4878ddb0f430 # Required. Details below
+          serverURL: "http://localhost:8000" # Required. Details below
+          testConfigID: "408caa2b-0bb9-4105-8fe8-f9834e357877" # Required. Details below
+          clientSecret: "5ae7b3b4-22ed-420e-b156-4878ddb0f430" # Required. Details below
