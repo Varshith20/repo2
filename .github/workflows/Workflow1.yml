@@ -1,6 +1,6 @@
-+ name: "YOUR WORK FLOW NAME"
+ name: "YOUR WORK FLOW NAME"
 
-+ # Configure which branch that will trigger Eggplant DAI GitHub Action
+ # Configure which branch that will trigger Eggplant DAI GitHub Action
 + # on:
 + #  push:
 + #    branches:
