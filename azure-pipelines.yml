@@ -6,7 +6,9 @@ resources:
     - repository: sourceRepo
       type: github
       name: TestPlant/eggplant-azure-devops
-      endpoint: # your service connection name. Details below under Notes(4).
+     
+    trigger:
+     endpoint: # your service connection name. Details below under Notes(4).
 jobs:
   - job: Run_Test_Config
     strategy:
