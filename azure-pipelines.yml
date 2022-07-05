@@ -13,11 +13,11 @@ jobs:
       maxParallel: 1
       matrix:
         linux:
-          imageName: "ubuntu-latest"
+          imageName: 'ubuntu-latest'
         mac:
-          imageName: "macOS-latest"
+          imageName: 'macOS-latest'
         windows:
-          imageName: "windows-latest"
+          imageName: 'windows-latest'
     pool: 
       vmImage: $(imageName)
     steps:
